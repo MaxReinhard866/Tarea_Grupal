@@ -41,6 +41,13 @@ cout<<"\n###   ### ###   ### #########\n###   ### ######### ##\n###   ### ## ###
 
         // Evaluar la opcion seleccionada
         switch (opcion) {
+
+            case 2:
+                cout<<"Ha seleccionado el programa 2"<<endl;
+                system("Impar");
+                return 0;
+                break;
+
             case 16:
                 cout<<"Ha seleccionado el programa 1"<<endl;
                 system("CalculoHipotenusa");
