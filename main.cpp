@@ -54,6 +54,12 @@ cout<<"\n###   ### ###   ### #########\n###   ### ######### ##\n###   ### ## ###
                 return 0;
                 break;
 
+            case 3:
+                cout<<"Ha seleccionado el programa 3"<<endl;
+                system("ConversionesBasicas");
+                return 0;
+                break;
+
             case 16:
                 cout<<"Ha seleccionado el programa 1"<<endl;
                 system("CalculoHipotenusa");

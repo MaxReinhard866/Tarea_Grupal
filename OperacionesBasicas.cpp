@@ -21,10 +21,10 @@ int main() {
             case 'S':
             case 's':
 
-                //Determinar si un numero es par o impar 
-                int numero;
-                int numero2;
-                int resultado;
+                //Menu de selección
+                double numero;
+                double numero2;
+                double resultado;
                 char eleccion;
                 cout<<"¿Cual de las siguientes operaciones desea realizar?"<<endl;
                 cout<<"1. SUMA"<<endl;
@@ -35,6 +35,7 @@ int main() {
                 cin>>eleccion;
 
                 switch (eleccion){
+                    //Seleccion y operacion de suma
                     case '1':
                     cout<<"Ingrese el primer numero:"<<endl;
                     cin>>numero;
@@ -43,7 +44,7 @@ int main() {
                     resultado = numero + numero2;
                     cout<<"La suma es: "<<resultado<<endl;
                     break;
-
+                    //Seleccion y operacion de resta
                     case '2':
                     cout<<"Ingrese el primer numero:"<<endl;
                     cin>>numero;
@@ -52,7 +53,7 @@ int main() {
                     resultado = numero - numero2;
                     cout<<"La resta es: "<<resultado<<endl;
                     break;
-
+                    //Seleccion y operacion de multiplicacion
                     case '3':
                     cout<<"Ingrese el primer numero:"<<endl;
                     cin>>numero;
@@ -61,7 +62,7 @@ int main() {
                     resultado = numero * numero2;
                     cout<<"La multiplicacion es: "<<resultado<<endl;
                     break;
-
+                     //Seleccion y operacion de division
                     case '4':
                     cout<<"Ingrese el primer numero:"<<endl;
                     cin>>numero;
