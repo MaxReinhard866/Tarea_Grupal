@@ -29,7 +29,7 @@ cout<<"\n###   ### ###   ### #########\n###   ### ######### ##\n###   ### ## ###
         cout<<"14. Mover un punto en toda la pantalla"<<endl;
         cout<<"15. Simulacion de un Cajero (Automata)"<<endl;
         cout<<"16. Calcular la hipotenusa"<<endl;
-        cout<<"17. Libre (pueden realizar el programa que ustedes quieran)"<<endl;
+        cout<<"17. Programa que cuenta chistes"<<endl;
         cout<<"18. Libre (pueden realizar el programa que ustedes quieran)"<<endl;
         cout<<"19. Libre (pueden realizar el programa que ustedes quieran)"<<endl;
         cout<<"20. Libre (pueden realizar el programa que ustedes quieran)"<<endl;
@@ -69,6 +69,11 @@ cout<<"\n###   ### ###   ### #########\n###   ### ######### ##\n###   ### ## ###
             case 16:
                 cout<<"Ha seleccionado el programa 16"<<endl;
                 system("CalculoHipotenusa");
+                return 0;
+                break;
+            case 17:
+                cout<<"Ha seleccionado el programa 16"<<endl;
+                system("ProgramaChistes");
                 return 0;
                 break;
             default:
