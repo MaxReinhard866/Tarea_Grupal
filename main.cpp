@@ -72,7 +72,7 @@ cout<<"\n###   ### ###   ### #########\n###   ### ######### ##\n###   ### ## ###
                 return 0;
                 break;
             case 17:
-                cout<<"Ha seleccionado el programa 16"<<endl;
+                cout<<"Ha seleccionado el programa 17"<<endl;
                 system("ProgramaChistes");
                 return 0;
                 break;
