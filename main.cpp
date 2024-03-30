@@ -60,8 +60,14 @@ cout<<"\n###   ### ###   ### #########\n###   ### ######### ##\n###   ### ## ###
                 return 0;
                 break;
 
+            case 4:
+                cout<<"Ha seleccionado el programa 4"<<endl;
+                system("Palindromo");
+                return 0;
+                break;
+
             case 16:
-                cout<<"Ha seleccionado el programa 1"<<endl;
+                cout<<"Ha seleccionado el programa 16"<<endl;
                 system("CalculoHipotenusa");
                 return 0;
                 break;
