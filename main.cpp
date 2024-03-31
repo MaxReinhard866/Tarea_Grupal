@@ -70,6 +70,30 @@ cout<<"\n###   ### ###   ### #########\n###   ### ######### ##\n###   ### ## ###
                 system("Conversión de números arábigos a romanos");
                 return 0;
                 break;
+            
+             case 6: 
+                cout<<"Ha seleccionado el programa 6"<<endl;
+                system("Numeros enteros a letras");
+                return 0;
+                break;
+            
+            case 7: 
+                cout<<"Ha seleccionado el programa 7"<<endl;
+                system("Conversión de números enteros con decimal a letras");
+                return 0;
+                break;
+            
+             case 8: 
+                cout<<"Ha seleccionado el programa 8"<<endl;
+                system("Tabla de multiplicar");
+                return 0;
+                break;
+            
+            case 9: 
+                cout<<"Ha seleccionado el programa 9"<<endl;
+                system("Tablas de multiplicar del 1 al 10");
+                return 0;
+                break;
 
             case 16:
                 cout<<"Ha seleccionado el programa 16"<<endl;
